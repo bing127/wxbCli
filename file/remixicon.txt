@@ -1,0 +1,9 @@
+import 'package:flutter/widgets.dart';
+
+class RemixIcon{
+  static const String _family = 'remixicon';
+  RemixIcon._();
+  {{ range .V }}
+  {{ . }}
+  {{- end }}
+}
